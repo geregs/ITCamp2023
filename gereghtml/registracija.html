@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="Dugme.css">
+</head>
+<body>
+    <h4>Ime</h4>
+    <input placeholder="Unesi Ime">
+    <h4>Unesi svoje Prezime</h4>
+    <input placeholder="Unesi prezime">
+    <h4>Unesi datum rodjenja</h4>
+    <input placeholder="nesi datum rodjenja" type="date">
+    <h4>Unesi svoj mail</h4>
+    <input placeholder="Unesi svoj mail">
+    <h4>Unesi korisnicko ime</h4>
+    <input placeholder="Unesi korisnicko ime">
+    <h4>Unesi zeljenu sifru</h4>
+    <input placeholder="Unesi sifru" type="password"><br><br>
+    <input type="checkbox" name="TestName" id="TestID"> <span>Saglasan sam sa upotrebom mojih podataka</span><br><br>
+    <button class="dugme2" style="margin-left: 20px;" onclick="odgovor()">Registruj me</button><br>
+    <hr>
+    <script>
+        function odgovor(){
+            alert("Uspesno si registrovan, mozes pristupiti prijavi!");
+        
+        }
+    </script>
+    <button class="dugmeLog" style="margin-left: 20px;"><a href="login.html">Prijava</button><br><br> 
+</body>
+</html>

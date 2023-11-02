@@ -1,0 +1,29 @@
+.dugmeLog {
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(12, 6, 178);
+    background-color: rgb(212, 243, 38);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.dugme2 {
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(205, 249, 6);
+    background-color: rgb(71, 119, 242);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+            
+}
+#mojedugme{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}

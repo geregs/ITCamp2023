@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="dugme.css">
+
+</head>
+<body>
+    <p style="font-size:30px;font-weight: bolder; margin-left: 80px;">NIT Log in</p>
+    <hr style="width: 300px"size="5px" color="black" align="left">
+    <p>Korisničko ime / email adresa</p>
+    <input type="email" id="username" size="40px" placeholder="User name / email" style="border: none; background-color: rgb(218, 229, 225); border-radius: 5px;">
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <p>Lozinka - password (minimum 6 karaktera)</p>
+    <input id="password" type="password" size="40px" placeholder="Password" style="border: none; background-color: rgb(218, 229, 225); border-radius: 5px;">
+    <hr style="width: 300px"size="2px" color="black" align="left"><br>
+    <button onclick="provera()" class="dugmeLogin" style="margin-left: 70px; font-weight: bolder; font-size: larger; font-family: 'Times New Roman', Times, serif;">Log in</button><br><br>
+    <a href="registracija.html" style="text-decoration: none;">Nisi član NIT-a? Registruj se!</a>
+    <script>
+        function provera(){
+            if (username.value.length==0){
+                if (password.value.length==0){
+                alert("Korisničko ime i lozinka NE MOGU DA BUDU PRAZNA POLJA!!!");
+                } else {
+                    alert("Lozinka BEZ korisničkog imena???");
+                }
+                
+            } else {
+                if(password.value.length==0){
+                    alert("Lozinka NE MOŽE DA BUDE PRAZNO POLJE!!!");
+                } else if(password.value.length<6) {
+                    alert("Lozinka mora da sadrži MINIMUM 6 karaktera");
+                } else {
+                    location.href="https://centarnit.com/";
+                }
+                }
+        }        
+
+    </script>
+
+</body>
+</html>

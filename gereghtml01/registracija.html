@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIT Registracija</title>
+    <link rel="stylesheet" href="dugme.css">
+</head>
+<body>
+    <p style="font-size:30px;font-weight: bolder; margin-left: 10px;">NIT REGISTRACIJA</p>
+    <hr style="width: 300px"size="5px" color="black" align="left">
+    <p>Korisničko ime / email adresa</p>
+    <input type="email" id="username" size="40px" placeholder="User name / email" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;">
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <p>Lozinka - password (minimum 6 karaktera)</p>
+    <input id="password" type="password" size="40px" placeholder="Password" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;"><br>
+    <input id="prikaziK" onclick="PrikaziKar()" type="checkbox"> Prikaži karaktere
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <p>Ime &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Prezime</p>
+    <input type="text" size="15px" placeholder="Ime" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;"><span><span>&emsp;</span><input type="text" size="18px" placeholder="Prezime" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;"></span>
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <p>Datum rođenja&emsp; Mesto rođenja</p>    
+    <input type="date" size="30px" placeholder="Datum rođenja" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;"><span></span>&emsp;&emsp;&ensp;<span><input type="text" size="18px" placeholder="Mesto rođenja" style="border: none; background-color: rgb(88, 119, 107); border-radius: 5px;"></span>
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <p>Pol</p>   
+    <input id="musko" name="muskozensko" type="radio">&emsp;Musko <span><span>&emsp;&emsp;&emsp;&emsp;</span><input id="zensko" name="muskozensko" type="radio">&emsp;Zensko</span>
+    <hr style="width: 300px"size="2px" color="black" align="left">
+    <button class="dugmeLogin" style="margin-left: 70px; font-weight: bolder; font-size: larger; font-family: 'Times New Roman', Times, serif;"><a href="vatromet.html">Register</button><br>
+    <SCript>
+        function PrikaziKar(){
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+            x.type = "text";
+            } else {
+            x.type = "password";
+            }
+        }
+
+    </SCript>
+</body>
+</html>

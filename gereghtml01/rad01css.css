@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.kontener{
+    background-color: red;
+    display: flex;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    border-bottom: 1px solid;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+.navbar .dugme:first-child{
+    background-color: white;
+    color: black;
+}
+.navbar .dugme:first-child:hover{
+    background-color: grey;
+    color: black;
+}
+.dugme{
+    background-color: red;
+    color: wheat;
+    border: 0;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+.dugme:hover {
+    background-color: white;
+    color: black;
+}
+.ispodnavbar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+
+    align-items: center;
+}
+.crnodugme{
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.sivodugme{
+    background-color:white;
+    color: black;
+    border: 0;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+.sivodugme:hover{
+    background-color: grey;
+
+}
