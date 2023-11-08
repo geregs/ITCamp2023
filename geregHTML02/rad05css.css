@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.containermain{
+    width: 100%;
+    height: 1000px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://ychef.files.bbci.co.uk/1600x900/p0bts7f3.webp');
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    background-color: chocolate;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+    opacity: 0.9;
+    
+}
+.burgericoncont{
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 100%;
+    font-size: 15px;
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.padajucimeni{
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    width: 400px;
+    background-color: rgb(181, 180, 180);
+    margin-right: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: 0.8;
+
+    
+}
+.burgericoncont:hover .padajucimeni{
+    display: flex;
+    flex-direction: column;
+}
+.padajucimeni a {
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    
+}
+.padajucimeni a:hover{
+    background-color:  rgb(169, 169, 169);
+    margin-left: 5px;
+    border-left: solid black;
+    transition: 0.25s;
+    font-weight: bold;
+}

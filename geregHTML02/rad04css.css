@@ -1,0 +1,17 @@
+body, html{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(238, 178, 87);
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 33.2%;
+    height: 200px;
+    background-color: aqua;
+    border: 0.12px solid black;
+}
