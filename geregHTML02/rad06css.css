@@ -1,0 +1,121 @@
+
+
+body, html{
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Miriam Libre', sans-serif;
+}
+.velikikont{
+    display: flex;
+    background-color: rgb(197, 255, 235);
+    justify-content: center;
+    align-items: center;
+}
+.mainkont{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+
+    
+   
+}
+.meni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-right: 5px;
+
+}
+.kont01{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 47%;
+
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.dugme{
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 120px;
+    min-height: 30px;
+}
+.dugmekont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a{
+   text-decoration: none; 
+}
+.kont02{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 28%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.burgericoncont{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 100%;
+    font-size: 15px;
+    align-items: center;
+    display: none;
+    justify-content: left;
+
+}
+.padajucimeni{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    width: 400px;
+    margin-right: 50px;
+    display: none;
+
+    opacity: 0.8;
+}
+@media screen and (max-width: 600px){
+    .meni{
+        gap: 2px;
+    }
+}
+@media screen and (max-width: 400px){
+    .burgericoncont{
+        display: block;
+    }
+    .meni{
+        display: none;
+    }
+
+}
+.burgericoncont:hover{
+    .padajucimeni{
+        display: flex;
+        flex-direction: column;
+    }
+}

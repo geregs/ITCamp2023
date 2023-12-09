@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: #444444;
+}
+a{
+    text-decoration: none;
+    color: #124265;
+}
+h1{
+    color: #124265 ;
+}
+.glavnikontener{
+    display:flex ;
+    flex-direction: column;
+}
+.kontenernavbar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    width: 700px;
+}
+.sadrzajkontener{
+    display: flex;
+    width: 100%;
+    background-color: #f1f0f0;
+    height: 500px;
+    align-items: center;
+}
+.text{
+    width: 600px;
+    margin-left: 50px;
+}
+.dugme{
+    border-radius: 5px;
+    border: none;
+    background-color: #2487ce;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 200px;
+}
