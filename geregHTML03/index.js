@@ -7,9 +7,15 @@
 //   console.log(`Zbir dva broja je ${zbir}`)
 //}
 //brojevi()
+num1="e"
+num2="C"
+while(isNaN(num1)){
+    num1 = Number(prompt("Napiši prvi broj"))
+}
+while(isNaN(num2)){
+    num2 = Number(prompt("Napiši drugi broj"))
+}
 
-num1 = Number(prompt("Napiši prvi broj"))
-num2 = Number(prompt("Napiši drugi broj"))
 operator = prompt("Napiši jedan od operatora i to: +, -, * ili /")
 function chkOperator(){
     switch(operator){
