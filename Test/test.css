@@ -64,4 +64,5 @@ h1{
     align-items: center;
     margin-top: 50px;
     padding-left: 200px;
+    filter: grayscale();
 }
